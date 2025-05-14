@@ -20,11 +20,12 @@ https://codebasics.io/challenge/codebasics-resume-project-challenge
 - Atliq Grand, a five-star hotel, noticed a loss in its market share and wanted to address this issue.
 - To facilitate data-informed decision-making, I developed an end-to-end dashboard.
 
-- Visuals :
+- Visuals : 
 🔹 Top Summary Cards (KPI Tiles)
 Revenue (1.69bn)-Total revenue generated.
 Revenue Per Available Room (7.34K)- revenue divided by available rooms.
 Daily Sellable Rooms (2.53K)- number of rooms available for sale per day.
+Revenue WoW change / RevPAR WoW change / DailySellableRoom WoW change
 Occupancy% (57.79%)-Shows how many rooms were occupied out of total available.
 Avg Daily Rate (12.70K)- average rate charged per occupied room.
 Realisation% (70.14%)-Represents actual revenue realized as a percentage of potential.
@@ -55,5 +56,4 @@ Useful to evaluate channel performance (e.g., direct, OTA, etc.).
 🗂️ This dashboard enabled the Revenue team to improve their revenue and market share.
 
 📘 Dashboard :
-
-
+https://github.com/Bharati1991/Insights---Hospitality/blob/main/Insights%20-%20Hospitality.png
