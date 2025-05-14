@@ -2,7 +2,7 @@
 
 AtliQ Grands, a luxury/business hotel chain, insights dashboard.
 
-📈 A dynamic,interactive dashboard to explore AtliQ Grands hotel chain's data focusing on some important KPIs.
+📈 A dynamic,interactive dashboard to explore AtliQ Grands hotel chain's data focusing on some important KPIs. It tracks key operational metrics, compares them by property, channel, city, and allows performance tracking over time.
 
 Insights-Hospitality is a visually engaging and analytical Power BI report designed to help Revenue Manager of this hotel chain to analyse, make data-driven decisions and take actions to improve hotel's market position and revenue generation.
 
@@ -17,39 +17,43 @@ The dashboard is built using the following tools :
 https://codebasics.io/challenge/codebasics-resume-project-challenge
 
 🌐 Highlights of the dashboard :
-Atliq Grand, a five-star hotel, noticed a loss in its market
- share and wanted to address this issue.
- Task: To facilitate data-informed decision-making, I developed an
- end-to-end dashboard. 
-Result: This dashboard enabled the Revenue team to regain their
- revenue and market share by 20% in the next month.
+- Atliq Grand, a five-star hotel, noticed a loss in its market share and wanted to address this issue.
+- To facilitate data-informed decision-making, I developed an end-to-end dashboard.
 
+- Visuals :
+🔹 Top Summary Cards (KPI Tiles)
+Revenue (1.69bn)-Total revenue generated.
+Revenue Per Available Room (7.34K)- revenue divided by available rooms.
+Daily Sellable Rooms (2.53K)- number of rooms available for sale per day.
+Occupancy% (57.79%)-Shows how many rooms were occupied out of total available.
+Avg Daily Rate (12.70K)- average rate charged per occupied room.
+Realisation% (70.14%)-Represents actual revenue realized as a percentage of potential.
 
+🔹 Donut Chart – TotalRevenue by Category
+Splits total revenue into Luxury and Business segments.
 
+🔹 Slicer Filters - Interactive filters allowing users to drill down and explore data by dimensions.
+Filter by City / Room Class / Month / Week Number
 
-Excel 📈 / CSV / SQL Server 🗄️ / SharePoint 🧩 / Web APIs
-(Customize based on your sources) – Used as input datasets for Power BI reports
+🔹 Line & Combo Chart – Trend by Key Metrics
+-RevPerAvailableRoom (blue line)
+-AvgDailyRate (orange line)
+-Occupancy% (orange line with secondary Y-axis)
 
+🔹 Bar & Line Chart – Realisation% and AvgDailyRate by Booking Platform
+Useful to evaluate channel performance (e.g., direct, OTA, etc.).
 
+🔹 Table – Property-level Performance
+-Shows performance per property across cities.
+-property_id, property_name, city, TotalRevenue, RevPerAvailableRoom, Occupancy%, AvgDailyRate, and DailySellableRooms
+-Useful for benchmarking and identifying top/bottom performers.
 
+🔹 Table – Day Type Summary
+-Shows KPIs aggregated by day type (weekday/weekend):
+-Helps understand performance differences by day segments.
 
+🗂️ This dashboard enabled the Revenue team to improve their revenue and market share.
 
-☁️ Deployment & Sharing
-Power BI Service 🚀 – Publish, schedule refreshes, and securely share reports via the web
+📘 Dashboard :
 
-Power BI Gateway 🔌 – Connect on-premises data to the cloud (if applicable)
-
-Power BI Apps / Workspaces 🗂️ – Organize and distribute dashboards across teams
-
-🤖 Automation & Integration
-Power Automate ⚙️ – Trigger workflows or alerts based on data changes
-
-Power BI Embedded 🧱 – Embed dashboards and reports into custom applications or web portals
-
-📘 Documentation & Governance
-Data Dictionary 📚 – Centralized reference for measures, columns, and data sources
-
-Row-Level Security (RLS) 🔐 – Control user-level data visibility
-
-Usage Metrics  – Track how users interact with reports and dashboards
 
